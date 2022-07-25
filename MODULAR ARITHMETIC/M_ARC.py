@@ -15,3 +15,13 @@ def stGCD(n,w):
     return (s,t)
         
 print(stGCD(26,23))
+
+OR
+
+def SecendGCD(n,w):
+    s=pow(n,-1,w)
+    t=(1-(n*s))/w
+    return (s,t)
+print(SecendGCD(26,23))
+
+
