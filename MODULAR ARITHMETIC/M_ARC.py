@@ -24,4 +24,15 @@ def SecendGCD(n,w):
     return (s,t)
 print(SecendGCD(26,23))
 
+OR
+def gcd(a,b):
+    q=0
+    r=0
+    while b!=0:
+        q=a//b
+        r=a%b
+        
+        a,b=b,r
 
+    return a
+print(gcd(750,900))
