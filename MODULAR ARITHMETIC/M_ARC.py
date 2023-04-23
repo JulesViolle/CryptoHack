@@ -16,7 +16,7 @@ def stGCD(n,w):
         
 print(stGCD(26,23))
 
-OR
+#OR
 
 def SecendGCD(n,w):
     s=pow(n,-1,w)
@@ -24,7 +24,8 @@ def SecendGCD(n,w):
     return (s,t)
 print(SecendGCD(26,23))
 
-OR
+#OR
+
 def gcd(a,b):
     q=0
     r=0
